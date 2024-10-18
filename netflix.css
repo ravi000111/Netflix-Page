@@ -1,0 +1,204 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-650-80.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .header {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .signin-btn {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero-content {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1, h2, p {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .email-form {
+    margin-top: 20px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-start {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .popular-movies-container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+  
+  .popular-movies-container h3 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .movies-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .movie {
+    text-align: center;
+    width: 150px;
+  }
+  
+  .movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie p {
+    color: white;
+    margin-top: 10px;
+  }
+  
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: black;
+    color: white;
+  }
+  
+  .feature img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    margin-bottom: 10px;
+    
+  }
+  
+  
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .popular-movies-container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+  
+  .popular-movies-container h3 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .movies-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .movie {
+    text-align: center;
+    width: 150px;
+  }
+  
+  .movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie p {
+    color: white;
+    margin-top: 10px;
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 20px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
